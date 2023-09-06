@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\ADSBRouter\Controllers\" />
+    <Folder Include="Areas\ADSBRouter\Data\" />
+    <Folder Include="Areas\ADSBRouter\Models\" />
+    <Folder Include="Areas\ADSBRouter\Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ADSBRouter\ADSBRouter.csproj" />
+  </ItemGroup>
+
+</Project>

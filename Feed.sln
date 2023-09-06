@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{DB85C8A2-7893-45BE-A218-5F0246B0A50C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADSBRouter", "ADSBRouter\ADSBRouter.csproj", "{19BAC2D2-D747-4364-99D5-47BDFA1AC8B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB85C8A2-7893-45BE-A218-5F0246B0A50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB85C8A2-7893-45BE-A218-5F0246B0A50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB85C8A2-7893-45BE-A218-5F0246B0A50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB85C8A2-7893-45BE-A218-5F0246B0A50C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19BAC2D2-D747-4364-99D5-47BDFA1AC8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BAC2D2-D747-4364-99D5-47BDFA1AC8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BAC2D2-D747-4364-99D5-47BDFA1AC8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BAC2D2-D747-4364-99D5-47BDFA1AC8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2DC9375-F13B-425D-9F4E-85A1DA236F23}
+	EndGlobalSection
+EndGlobal
